@@ -4,7 +4,9 @@ const fs = require("fs/promises");
 
 // const contactsPath = require("./db/contacts.json");
 async function invokeAction({ action, id, name, email, phone }) {
-    
+    switch (action) {
+        case ""
+    }
 }
 
 
