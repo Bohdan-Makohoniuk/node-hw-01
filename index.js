@@ -1,7 +1,7 @@
-const fs = require("fs/promises");
 const contacts = require("./contacts");
 
-
+const yargs = require("yargs");
+const { hideBin } = require("yargs/helpers");
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
@@ -37,10 +37,3 @@ const arr = hideBin(process.argv);
 const { argv } = yargs(arr);
 
 invokeAction(argv);
-
-
-// Отримати всі дані - contactsPath.getAll;
-// Отримати один контакт по id - contactsPath.getById;
-// Отримати додати контакт - contactsPath.add;
-// Оновити контакт по id - contactsPath.updateById;
-// Видалити контакт по id - contactsPath.removeById; 
