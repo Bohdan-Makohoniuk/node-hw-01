@@ -36,12 +36,6 @@
     "phone": "(715) 598-5792"
   },
   {
-    "id": "8",
-    "name": "Simon Morton",
-    "email": "dui.Fusce.diam@Donec.com",
-    "phone": "(233) 738-2360"
-  },
-  {
     "id": "9",
     "name": "Thomas Lucas",
     "email": "nec@Nulla.com",
@@ -52,5 +46,11 @@
     "name": "Poly",
     "email": "poly@mail.com",
     "phone": "777-77-77"
+  },
+  {
+    "id": "87c0583c-779b-402e-ae52-44b7b6d6890b",
+    "name": "Bohdan",
+    "email": "bohdan@h,ail.com",
+    "phone": "0960146422"
   }
 ]
